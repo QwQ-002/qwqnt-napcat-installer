@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            padding: 1rem 1.5rem;
+        }
+        #title {
+            font-size: 1.6rem;
+            user-select: none;
+        }
+        #content {
+            font-size: 1.2rem;
+            margin-top: .4rem;
+            margin-bottom: .6rem;
+            font-weight: 300;
+            opacity: .8;
+        }
+        progress {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<p id="title">NapCat 安装器</p>
+<p id="content">正在初始化请稍后...</p>
+<progress id="progress" max="100"></progress>
+<script>
+    window.title = document.getElementById('title');
+    window.content = document.getElementById('content');
+    window.progress = document.getElementById('progress');
+</script>
+</body>
+</html>

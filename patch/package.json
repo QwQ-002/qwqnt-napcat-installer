@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "main": "./liteloader.cjs",
+  "qwqnt": {
+    "name": "NapCat",
+    "icon": "./logo.png",
+    "inject": {
+      "preload": "./preload.cjs",
+      "renderer": "./renderer.js"
+    },
+    "dependencies": {
+      "qwqnt-plugin_settings": "^1.2.0"
+    }
+  }
+}

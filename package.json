@@ -1,0 +1,12 @@
+{
+  "name": "napcat",
+  "version": "999.999.999",
+  "qwqnt": {
+    "dependencies": {
+      "qwqnt-plugin_settings": "^1.2.4"
+    }
+  },
+  "dependencies": {
+    "unzipper": "^0.12.3"
+  }
+}
